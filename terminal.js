@@ -12,6 +12,15 @@ var terminal = {
             
             // then we ask the user for their first prompt: 
             return readline.question('\x1b[96mnode: \x1b[0m', terminal.next)
+
+			// two things:
+		
+			// 1. why is this before and after 'node: ' ? \x1b[96m && \x1b[0m
+			// try removing those and see what happens...
+
+			// 2. after the prompt, there's a comma, then -> 'terminal.next'
+
+			// 'next' is another that's part of our terminal, but why?
 	},
 	
 	'next': function (input) {
