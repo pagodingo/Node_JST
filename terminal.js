@@ -26,11 +26,7 @@ var terminal = {
             if (!terminal[input] && ![undefined, ''].includes(input))
                 console.error('error: no matching terminal command found.', 'command : ' + input)
                 
-            // third way to call command: can you tell me why I've added this?
-            // (you can ignore for now, but it may help you with your homework assignment.)
-           //   if (input.startsWith('! ')) return terminal[input.split('! ')[1]]()
-            
-            	// recursively prompt the user again :
+            // recursively prompt the user again :
             return readline.question('\x1b[96mpal: \x1b[0m', terminal.next)
 	},
 	
