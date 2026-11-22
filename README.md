@@ -1,2 +1,3 @@
 # Node_JST
-A simple app to Node JS App to teach students Javascript from the command line / terminal.  
+
+A simple app to teach students Javascript from the command line / terminal.  
